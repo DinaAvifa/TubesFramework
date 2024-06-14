@@ -29,3 +29,11 @@ Route::get('company', CompanyProfileController::class)->name('company');
 Auth::routes(['register' => false]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('download-file/{produkId}', [ProdukController::class, 'downloadFile'])->name('produk.downloadFile');
+
+Route::get('getProduk', [ProdukController::class, 'getData'])->name('produk.getData');
+
+Route::get('exportExcel', [ProdukController::class, 'exportExcel'])->name('produk.exportExcel');
+
+Route::get('exportPdf', [ProdukController::class, 'exportPdf'])->name('produk.exportPdf');
