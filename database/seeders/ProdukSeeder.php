@@ -30,7 +30,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'kode_produk' => 'MK-3',
-                'nama_produk' => 'white Butterfly ',
+                'nama_produk' => 'White Butterfly ',
                 'price' => '15000',
                 'jenis_id' => 1,
                 'description' => 'deskripsi',
@@ -45,7 +45,7 @@ class ProdukSeeder extends Seeder
             [
                 'kode_produk' => 'MC-2',
                 'nama_produk' => 'Pink Butterfly ',
-                'price' => '1000',
+                'price' => '15000',
                 'jenis_id' => 2,
                 'description' => 'deskripsi',
             ],
