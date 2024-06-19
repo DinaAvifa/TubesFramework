@@ -6,7 +6,6 @@
             @foreach ($jenis as $jenis_produk)
                 <header class="section-heading mb-4">
                     <h1 class="text-center section-title">{{ $jenis_produk->name }}</h1>
-                    {{-- <p class="text-center">{{ $jenis_produk->description }} </p> --}}
                 </header>
                 <div class="row">
                     @foreach ($produk as $barang)
