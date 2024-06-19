@@ -89,7 +89,6 @@ class Produkcontroller extends Controller
         }
 
         // Menampilkan isi request untuk debugging
-        dd($produk);
         $produk->save();
 
         Alert::success('Berhasil ditambahkan', 'Data Produk berhasil ditambahkan.');
