@@ -51,7 +51,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'kode_produk' => 'MC-3',
-                'nama_produk' => 'Cincin ',
+                'nama_produk' => 'White Floral  ',
                 'price' => '10000',
                 'jenis_id' => 2,
                 'description' => 'Cincin dengan warna yang menarik dengan pembelian 10000/3pcs',
