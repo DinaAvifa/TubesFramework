@@ -51,7 +51,7 @@ class ProdukSeeder extends Seeder
             ],
             [
                 'kode_produk' => 'MC-3',
-                'nama_produk' => 'Contoh Produk ',
+                'nama_produk' => 'Cincin Floral',
                 'price' => '1000',
                 'jenis_id' => 2,
                 'description' => 'deskripsi',
